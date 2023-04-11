@@ -1,5 +1,6 @@
 import React from "react";
 import "./contact.css";
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
 
@@ -26,7 +27,7 @@ export default function Contact() {
         
         setIsSubmitted(isSubmitted => !isSubmitted);
 
-        emailjs.sendForm('service_fiys2dr', 'template_iz54nkt', event.target, 'kDJTFrwZ2QKQ2yuPZ')
+        emailjs.send('service_fiys2dr', 'template_iz54nkt', formData, 'kDJTFrwZ2QKQ2yuPZ')
         .then((result) => {
             console.log(result.text);
         }, (error) => {

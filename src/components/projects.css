@@ -14,6 +14,10 @@
     color: white;
 }
 
+.projects-text {
+    margin: 20px 0;
+}
+
 .projects-wrapper {
     box-sizing: border-box;
     position: relative;
