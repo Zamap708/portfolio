@@ -10,7 +10,7 @@ export default function Projects() {
     let content = projects.map(project => 
         <Project
             name={project.name}
-            screenshot={project.image}
+            image={project.image}
             stack={project.stack}
             description={project.description}
             url={project.url}
@@ -19,7 +19,10 @@ export default function Projects() {
       );
 
     return (
-        <div className="projects">
+        <div className="projects" id="projects">
+            <div className="projects-text">
+                <h1>View My Projects</h1>
+            </div>
             <div className="projects-wrapper">
                 {content}
             </div>

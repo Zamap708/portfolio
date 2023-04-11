@@ -12,17 +12,18 @@ export default function Home() {
                         <div className="hero-subtitle">Full Stack Developer<br/>UI/UX Designer</div>
                     </div>
                     <div className="social-media-links">
-                        <div className="github icon"><a href=""></a></div>
-                        <div className="linkedin icon"><a href=""></a></div>
-                        <div className="email icon"><a href=""></a></div>
+                        <a href="https://github.com/Zamap708" target="_blank"><div className="github icon"></div></a>
+                        <a href="https://www.linkedin.com/in/zama-phungula-562a991a3/"><div className="linkedin icon"></div></a>
+                        <a href="mailto: zamafphungula@gmail.com"><div className="email icon"></div></a>
                     </div>
                 </div>
 
                 <div className="hero-column">
                     <ul className="site-map">
-                        <li className="site-link"><a href="" className="site-link-anchor">Bio</a></li>
-                        <li className="site-link"><a href="" className="site-link-anchor">Projects</a></li>
-                        <li className="site-link"><a href="" className="site-link-anchor">Contact Me</a></li>
+                        <li className="site-link"><a href="#about" className="site-link-anchor">Bio</a></li>
+                        <li className="site-link"><a href="#projects" className="site-link-anchor">Projects</a></li>
+                        <li className="site-link"><a href="#contact" className="site-link-anchor">Contact Me</a></li>
+                        <li className="site-link"><a href="https://drive.google.com/file/d/1cjIrenkQ7wvIp9bfABvLtZQ8IaCRG4Lr/view?usp=drivesdk" target="_blank" className="site-link-anchor">Curriculum Vitae</a></li>
                     </ul>
                 </div>
             </div>
