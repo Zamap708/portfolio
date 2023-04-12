@@ -35,6 +35,7 @@
     grid-template-rows: 1fr;
 
     width: 80%;
+    min-width: 450px;
     height: 80%;
     margin: auto;
     padding: 50px;
@@ -166,4 +167,42 @@
 .site-link-anchor {
     text-decoration: none;
     color: white;
+}
+
+@media (max-width: 900px) {
+    .hero-column {
+        padding: 20px;
+    }
+
+    .hero-name {
+        font-size: 40px;
+    }
+    
+    .hero-subtitle {
+        font-size: 20px;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+    }
+
+    .site-map {
+        font-size: 22px;
+    }
+    
+}
+
+@media (max-width: 700px) {
+    .hero-content {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .site-map {
+        justify-content: center;
+        font-size: 18px;
+    }
 }

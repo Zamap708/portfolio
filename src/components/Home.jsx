@@ -23,7 +23,7 @@ export default function Home() {
                         <li className="site-link"><a href="#about" className="site-link-anchor">Bio</a></li>
                         <li className="site-link"><a href="#projects" className="site-link-anchor">Projects</a></li>
                         <li className="site-link"><a href="#contact" className="site-link-anchor">Contact Me</a></li>
-                        <li className="site-link"><a href="https://drive.google.com/file/d/1cjIrenkQ7wvIp9bfABvLtZQ8IaCRG4Lr/view?usp=drivesdk" target="_blank" className="site-link-anchor">Curriculum Vitae</a></li>
+                        <li className="site-link"><a href="https://drive.google.com/file/d/1HE6uY6zOuPaU2PD4q2T8PE_5nCtW2Sl9/view?usp=share_link" target="_blank" className="site-link-anchor">Curriculum Vitae</a></li>
                     </ul>
                 </div>
             </div>

@@ -22,7 +22,7 @@ export default function Projects() {
     return (
         <div className="projects" id="projects">
             <div className="projects-text">
-                <h1 className="about-heading">View My Projects</h1>
+                <h1 className="about-heading">My Projects</h1>
             </div>
             <div className="projects-wrapper">
                 {content}
