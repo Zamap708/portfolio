@@ -13,6 +13,21 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      keyframes: {
+        Wgrow: {
+          '0%': { width: '0' },
+          '100%' : { width: '100%'}
+        },
+        Hgrow: {
+          '0%': { height: '0' },
+          '100%' : { height: '100%'}
+        },
+      },
+      animation: {
+        Wgrow: 'Wgrow 0.5s ease-out',
+        Hgrow:'Hgrow 0.5s ease-out'
+        
+      }
     },
   },
   plugins: [],
